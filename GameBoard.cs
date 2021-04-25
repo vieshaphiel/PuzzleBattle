@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using MusicPlayer;
+using System;
+using System.Collections.Generic;
 
 namespace PuzzleBattle
 {
@@ -297,7 +297,7 @@ namespace PuzzleBattle
 
         short RESERVES_WIDTH, RESERVES_HEIGHT, NEXT_WIDTH, NEXT_HEIGHT;
         Vector2 BOARD_TOPLEFT, RESERVE_TOPLEFT_1P, NEXT_PIECE_TOPLEFT_1P, RESERVE_TOPLEFT_2P, NEXT_PIECE_TOPLEFT_2P;
-        const short CONTROLS_WIDTH = 184, CONTROLS_HEIGHT = 150,EXITRETRY_WIDTH = 152, EXITRETRY_HEIGHT = 54;
+        const short CONTROLS_WIDTH = 184, CONTROLS_HEIGHT = 150, EXITRETRY_WIDTH = 152, EXITRETRY_HEIGHT = 54;
         Vector2 CONTROLS_XY;
 
         // 動畫layout設定區

@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using IrrKlang;
+﻿using IrrKlang;
+using System.Collections.Generic;
 
 namespace MusicPlayer
 {
@@ -62,7 +62,7 @@ namespace MusicPlayer
                 }
                 else
                 {
-                    if (Sounds[i].Sound.Finished)
+                    if (i > 0 && Sounds[i].Sound.Finished)
                     {
                         Sounds[i].Sound.Dispose();
                     }
