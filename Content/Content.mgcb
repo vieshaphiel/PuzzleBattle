@@ -1,0 +1,267 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:Windows
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/bomb.ogg
+/copy:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/bomb.ogg;Audio/bomb.ogg
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/cursor_move.ogg
+/copy:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/cursor_move.ogg;Audio/cursor_move.ogg
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/intro.ogg
+/copy:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/intro.ogg;Audio/intro.ogg
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/loop.ogg
+/copy:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/loop.ogg;Audio/loop.ogg
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/matchend.ogg
+/copy:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/matchend.ogg;Audio/matchend.ogg
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/place.ogg
+/copy:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/place.ogg;Audio/place.ogg
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/rotate.ogg
+/copy:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/rotate.ogg;Audio/rotate.ogg
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/select.ogg
+/copy:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/select.ogg;Audio/select.ogg
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/backdrop.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/backdrop.png;Sprites/backdrop.png
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/bomb.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/bomb.png;Sprites/bomb.png
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/border.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/border.png;Sprites/border.png
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/br-dead.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/br-dead.png;Sprites/br-dead.png
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/br-fall.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/br-fall.png;Sprites/br-fall.png
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/br-idle.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/br-idle.png;Sprites/br-idle.png
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/br-victory.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/br-victory.png;Sprites/br-victory.png
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/controls.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/controls.png;Sprites/controls.png
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/gauge.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/gauge.png;Sprites/gauge.png
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/gaugedot.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/gaugedot.png;Sprites/gaugedot.png
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/inout.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/inout.png;Sprites/inout.png
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/keys.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/keys.png;Sprites/keys.png
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/mob-hop.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/mob-hop.png;Sprites/mob-hop.png
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/mob-idle.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/mob-idle.png;Sprites/mob-idle.png
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/mob-turn.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/mob-turn.png;Sprites/mob-turn.png
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/next.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/next.png;Sprites/next.png
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/podium.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/podium.png;Sprites/podium.png
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/reserves.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/reserves.png;Sprites/reserves.png
+
+#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/tiles.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/tiles.png;Sprites/tiles.png
+
