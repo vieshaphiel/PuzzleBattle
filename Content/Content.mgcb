@@ -13,31 +13,55 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/bomb.ogg
-/copy:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/bomb.ogg;Audio/bomb.ogg
+#begin Audio/bomb.ogg
+/importer:OggImporter
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Audio/bomb.ogg
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/cursor_move.ogg
-/copy:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/cursor_move.ogg;Audio/cursor_move.ogg
+#begin Audio/cursor_move.ogg
+/importer:OggImporter
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Audio/cursor_move.ogg
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/intro.ogg
-/copy:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/intro.ogg;Audio/intro.ogg
+#begin Audio/intro.ogg
+/importer:OggImporter
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Audio/intro.ogg
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/loop.ogg
-/copy:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/loop.ogg;Audio/loop.ogg
+#begin Audio/loop.ogg
+/importer:OggImporter
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Audio/loop.ogg
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/matchend.ogg
-/copy:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/matchend.ogg;Audio/matchend.ogg
+#begin Audio/matchend.ogg
+/importer:OggImporter
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Audio/matchend.ogg
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/place.ogg
-/copy:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/place.ogg;Audio/place.ogg
+#begin Audio/place.ogg
+/importer:OggImporter
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Audio/place.ogg
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/rotate.ogg
-/copy:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/rotate.ogg;Audio/rotate.ogg
+#begin Audio/rotate.ogg
+/importer:OggImporter
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Audio/rotate.ogg
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/select.ogg
-/copy:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Audio/select.ogg;Audio/select.ogg
+#begin Audio/select.ogg
+/importer:OggImporter
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Audio/select.ogg
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/backdrop.png
+#begin Sprites/backdrop.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -47,9 +71,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/backdrop.png;Sprites/backdrop.png
+/build:Sprites/backdrop.png
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/bomb.png
+#begin Sprites/bomb.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -59,9 +83,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/bomb.png;Sprites/bomb.png
+/build:Sprites/bomb.png
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/border.png
+#begin Sprites/border.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -71,9 +95,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/border.png;Sprites/border.png
+/build:Sprites/border.png
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/br-dead.png
+#begin Sprites/br-dead.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -83,9 +107,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/br-dead.png;Sprites/br-dead.png
+/build:Sprites/br-dead.png
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/br-fall.png
+#begin Sprites/br-fall.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -95,9 +119,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/br-fall.png;Sprites/br-fall.png
+/build:Sprites/br-fall.png
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/br-idle.png
+#begin Sprites/br-idle.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -107,9 +131,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/br-idle.png;Sprites/br-idle.png
+/build:Sprites/br-idle.png
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/br-victory.png
+#begin Sprites/br-victory.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -119,9 +143,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/br-victory.png;Sprites/br-victory.png
+/build:Sprites/br-victory.png
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/controls.png
+#begin Sprites/controls.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -131,9 +155,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/controls.png;Sprites/controls.png
+/build:Sprites/controls.png
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/gauge.png
+#begin Sprites/gauge.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -143,9 +167,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/gauge.png;Sprites/gauge.png
+/build:Sprites/gauge.png
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/gaugedot.png
+#begin Sprites/gaugedot.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -155,9 +179,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/gaugedot.png;Sprites/gaugedot.png
+/build:Sprites/gaugedot.png
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/inout.png
+#begin Sprites/inout.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -167,9 +191,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/inout.png;Sprites/inout.png
+/build:Sprites/inout.png
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/keys.png
+#begin Sprites/keys.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -179,9 +203,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/keys.png;Sprites/keys.png
+/build:Sprites/keys.png
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/mob-hop.png
+#begin Sprites/mob-hop.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -191,9 +215,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/mob-hop.png;Sprites/mob-hop.png
+/build:Sprites/mob-hop.png
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/mob-idle.png
+#begin Sprites/mob-idle.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -203,9 +227,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/mob-idle.png;Sprites/mob-idle.png
+/build:Sprites/mob-idle.png
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/mob-turn.png
+#begin Sprites/mob-turn.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -215,9 +239,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/mob-turn.png;Sprites/mob-turn.png
+/build:Sprites/mob-turn.png
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/next.png
+#begin Sprites/next.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -227,9 +251,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/next.png;Sprites/next.png
+/build:Sprites/next.png
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/podium.png
+#begin Sprites/podium.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -239,9 +263,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/podium.png;Sprites/podium.png
+/build:Sprites/podium.png
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/reserves.png
+#begin Sprites/reserves.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -251,9 +275,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/reserves.png;Sprites/reserves.png
+/build:Sprites/reserves.png
 
-#begin ../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/tiles.png
+#begin Sprites/tiles.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -263,5 +287,5 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../PuzzleBattleMono/PuzzleBattleMono/PuzzleBattleMono/Content/Sprites/tiles.png;Sprites/tiles.png
+/build:Sprites/tiles.png
 
